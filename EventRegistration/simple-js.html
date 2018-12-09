@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>src="main.js"</script>
+    <style>
+    #firstname{
+        font-size: 18px;
+    }
+    [name=lastname]{
+        background-color: yellowgreen;
+        }
+        [name=disabledaccess]:checked{
+            background-color: red;
+            width:30px; height: 50px; 
+        }
+        [name=event]:target{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input oninput='updateContent()' id="firstname" placeholder="first name">
+        <input name="lastname" placeholder="last name">
+        <lable for="disabledaccess">Diabled access required</lable>
+        <input type="checkbox" id="disabledaccess" name="disabledaccess">
+        <select name="event" onchange="showSelection"> 
+                <option value="swimming">Swimming</option>
+                <option value="glastonbury">Glastonbury</option>
+                <option value="epson">Swimming</option>
+            </select>
+            <label for="yesDriver">Driver- yes</label>
+            <input type="radio" id="yesDriver" name="driverStatus" value="yes">
+            <label for="notDriver">Driver- no</label>
+            <input type="radio" id="notDriver" name="driverStatus" value="no">
+    </form>
+    <div id="content"> </div>
+    <button id="submit" onclick="showDriverStautus">Submit</button>
+</body>
+</html>

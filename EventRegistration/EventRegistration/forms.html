@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGL Test Conference</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="main2.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="bgl-logo-blue.png" id="logo" alt="logo" />
+            <span id="event-heading">Test Conference
+                <span />
+        </h1>
+    </header>
+    <main>
+        <div id="event-details">
+            <p class=".tag-without-space">8th February 2019 - 9th February 2019</p>
+            <p class=".tag-without-space">Pegasus House</p>
+            <p class=".tag-without-space">Peterborough</p>
+            <p>PE2 6YS</p>
+        </div>
+        <h2 class="brand-colour">What to expect?</h2>
+        <p>
+            Lorem ipsum dolor sit amet, mutat soluta mentitum nec ea, eu meis semper putant pro. Cu duo dicat patrioque dissentiunt.
+            Appareat patrioque te vix, cu has senserit inciderint. Graecis detracto te vel, sea iudico patrioque concludaturque
+            eu, vel diam ubique ex. His id lucilius philosophia. Mundi civibus eam cu. Accusam suscipit ut vis, qui eius
+            ocurreret cu. At mel elitr eruditi, graeco vulputate ea vim. Quod fabulas democritum no usu, at indoctum praesent
+            eam, et amet clita mandamus usu. An iuvaret docendi torquatos eum.
+        </p>
+
+        <div>
+            <h3 class="brand-colour">Register</h3>
+
+            <form name="register"></form>
+            <div>
+                <div>
+                    <input type="radio" id="1Day" name="ticketSelection">
+                    <label for="defaultUnchecked">Ticket for 1 day</label>
+                </div>
+                <div>
+                    <input type="radio" id="full" name="ticketSelection">
+                    <label for="defaultUnchecked">Ticket for full conference</label>
+                </div>
+                <div>
+                    <div class="padding">
+                        <label>Pick the date you would like to attend the coference below:</label>
+                    </div>
+                    <input type="date" id="conferenceDateChosen" name="dateChosen">
+                </div>
+                <div class="btn-group padding">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Title
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button">Mr</button>
+                            <button class="dropdown-item" type="button">Mrs</button>
+                            <button class="dropdown-item" type="button">Miss</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input required type="text" name="FirstName" id="first-name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="InputSurname">Surname</label>
+                    <input required type="text" name="Surname" id="surname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="InputCompanyName">Company name</label>
+                    <input type="text" name="CompanyName" id="company-name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="InputJobTitle">Job title</label>
+                    <input type="text" name="JobTitle" id="job-title" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="InputEmail">Email address</label>
+                    <input required type="email" name="Email" id="email" class="form-control" placeholder="example.email@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="InputPhoneNo">Phone number</label>
+                    <input type="number" name="PhoneNumber" id="number" class="form-control">
+                </div>
+                <button type="submit" value="register" class="btn btn-primary btn-lg btn-block" onclick="saveForm()">Register</button>
+                </form>
+            </div>
+    </main>
+    <footer class="gf-wrapper gf-tight">
+
+
+
+        <div class="gf-copyright">© BGL Group 2018</div>
+        <div class="gf-copy">
+            <strong>BGL Group Limited</strong>&nbsp;(Registered in England No: 2593690) Registered Office: Pegasus House, Bakewell
+            Road, Orton Southgate, Peterborough, PE2 6YS.
+            <br> This website uses cookies. Continuing to use this website gives consent to cookies being used. For information
+            on how to disable them see our privacy &amp; cookie policy.
+            <br> &nbsp;
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>

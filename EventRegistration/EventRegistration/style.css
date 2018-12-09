@@ -1,0 +1,60 @@
+.tag-without-space{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 50px;
+}
+.padding{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.pad-left{
+    padding-left: 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+.brand-colour{
+    color: #006ab6;
+}
+header{
+    background-image: url("city.jfif");
+    background-size: cover;
+    padding-bottom: 5%;
+}
+main{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%
+}
+h1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#logo{
+    margin-top: 0%;
+    margin-left: 5%;
+    width:8%;
+}
+#event-heading{
+    padding-left: 3%;
+    color: white;
+}
+#event-details{
+    text-align: center;
+    color: #006ab6;
+}
+p{
+    font-size: 0.8em;
+}
+footer{
+    background-color:darkgray;
+    margin-top: 5%;
+    padding: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.1%;
+    color: white;
+}
+
+
+
+
+/*comments in CSS*/

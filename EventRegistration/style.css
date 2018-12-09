@@ -1,0 +1,33 @@
+.tag-without-space{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 50px;
+}
+.brand-colour{
+    color: #006ab6;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5%;
+}
+h1{
+    padding-bottom: 5%;
+}
+#logo{
+    width:8%;
+}
+#event-heading{
+    padding-left: 3%;
+    color: #006ab6;
+}
+#event-details{
+    text-align: center;
+    color: #006ab6;
+}
+p{
+    font-size: 0.8em;
+}
+
+
+
+/*comments in CSS*/
