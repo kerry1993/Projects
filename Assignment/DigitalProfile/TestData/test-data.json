@@ -1,0 +1,34 @@
+{"DigitalProfile": {
+    "name": {
+        "title": "Miss",
+        "firstName": "Kerry",
+        "surname": "Johnson"
+    },
+    "animalPhoto": { 
+        "src": "Images/dog-meme.png",
+        "name": "Dog meme"
+    },
+    "projects" : {
+        "project1": {"projectName":"Hello", "projectDate": "01/01/2012"},
+        "project2": {"projectName":"Hello", "projectDate": "01/02/2012"},
+        "project3": {"projectName":"Hello", "projectDate": "01/01/2011"},
+        "project4": {"projectName":"Hello", "projectDate": "01/07/2012"},
+        "project5": {"projectName":"Hello", "projectDate": "01/01/2008"}
+    },
+    "favouriteTeam" : {
+        "sport": "Football",
+        "team": "Man U"
+    },
+    "interstingFacts":{
+        "fact1": "1",
+        "fact2": "2",
+        "fact3": "3"
+    },
+    "holdayFacts":{
+        "fact1": "1",
+        "fact2": "2",
+        "fact3": "3",
+        "fact4": "4",
+        "fact5": "5"
+    }
+}}  

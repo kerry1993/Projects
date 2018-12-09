@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Services</title>
+    <style>
+        input[type=number] {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Laundry list</h1>
+    <table>
+        <tr>
+            <td>
+                <input type="number" min="0" max="5">
+            </td>
+            <td>Shirt</td>
+            <td id="shirtprice"></td>
+            <td>
+                <input type="text" readonly class="totalCost">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" min="0" max="5">
+            </td>
+            <td>Trousers</td>
+            <td id="trouserprice"></td>
+            <td>
+                <input type="text" readonly class="totalCost">
+            </td>
+            <tr>
+                <td>
+                    <input type="number" min="0" max="5">
+                </td>
+                <td>Blouse</td>
+                <td id="blouseprice"></td>
+                <td>
+                    <input type="text" readonly class="totalCost">
+                </td>
+            </tr>
+        </tr>
+        <tr>
+            <td colspan="2">Total</td>
+            <td colspan="2">
+                <h3 id="grandtotal"></h3>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+<script src="js/laundry.js"></script>
+</html>
